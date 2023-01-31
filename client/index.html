@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.108.0">
+    <title>Carousel Template · Bootstrap v5.3</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/carousel/">
+
+    
+
+    
+
+<link href="./carousel/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+
+      .b-example-divider {
+        height: 3rem;
+        background-color: rgba(0, 0, 0, .1);
+        border: solid rgba(0, 0, 0, .15);
+        border-width: 1px 0;
+        box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+      }
+
+      .b-example-vr {
+        flex-shrink: 0;
+        width: 1.5rem;
+        height: 100vh;
+      }
+
+      .bi {
+        vertical-align: -.125em;
+        fill: currentColor;
+      }
+
+      .nav-scroller {
+        position: relative;
+        z-index: 2;
+        height: 2.75rem;
+        overflow-y: hidden;
+      }
+
+      .nav-scroller .nav {
+        display: flex;
+        flex-wrap: nowrap;
+        padding-bottom: 1rem;
+        margin-top: -1px;
+        overflow-x: auto;
+        text-align: center;
+        white-space: nowrap;
+        -webkit-overflow-scrolling: touch;
+      }
+
+    </style>
+
+    
+    <link href="./carousel/carouselTism.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<main>
+
+  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class= "image-start" src="./food.jpg" width="100%" height="100%">
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1 style="color:honeydew;">This page is about how much I love different meals.</h1>
+            <p style="color:honeydew;">I'm sure you do too!</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="image-start" src="./eh.jpeg">
+        <div class="container">
+          <div class="carousel-caption">
+            <h1 style="color:honeydew;">Meals are the most wholesome parts of the day.</h1>
+            <p style="color:honeydew;">They are just bundles of joy!</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img class="image-start" src="./pasta.jpg">
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1 style="color:honeydew;">Let's go through them together, shall we?</h1>
+            <p style="color:honeydew;"  >Don't get left behind!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <img class="image-round" src="./brekky.jpg" height="140" width="140">
+        <h2 class="fw-normal">Breakfast</h2>
+        <p>I love breakfast because I get a headstart away from the nightmares I experienced the previous night.</p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img class="image-round" src="./luncheon.jpg" height="140" width="140">
+        <h2 class="fw-normal">Lunch</h2>
+        <p>Lunch is usually the middle of the day furthest away from the darkness. The safety doesn't last.</p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img class="image-round" src="./dindin.jpg" height="140" width="140">
+        <h2 class="fw-normal">Dinner</h2>
+        <p>Finally, dinner. They are ever so close. Run away while you can.</p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">The day begins.<span class="text-muted"> You barely escaped.</span></h2>
+        <p class="lead">There were millions of eyes that watched you as you slept. As the sun rose the eyes were seemilngly washed away. Were they
+        a figment of your imagination? That couldn't be. AS long as you know they are gone for now. Wake up and put a smile on, it's time for breakfast
+        one can only hope they don't show up again.</p>
+      </div>
+      <div class="col-md-5">
+        <img class="image" src="./creepy1.jpg"> 
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading fw-normal lh-1">It's basically noon. <span class="text-muted">They're still hiding.</span></h2>
+        <p class="lead">You have gone the day without seeing any nightmares but be on your guard. You know the full extent of your horrors so you must
+          understand why you have to always be alert. Don't let the apparitions get to you. It's easy imaging what may come to haunt you at night but please
+          enjoy lunch for now.</p>
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img class="image" src="./creepy2.jpg">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading fw-normal lh-1">Night time. <span class="text-muted">You have to be  ready.</span></h2>
+        <p class="lead">The time has come again. He's waiting for you. There's no amount of words I can say to try and help you from what's
+        on the other side of the darkness. Be not afraid, child. Just stomach down your dinner and make sure that you take a good look of all that's around you
+        you never know if it'll be your last meal with him around. Enjoy dinner as much as you can.</p>
+      </div>
+      <div class="col-md-5">
+        <img class="image" src="./creepy3.jpg">
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+  
+<div class="container">
+  <h3>How surprised were you at this page? Write it down.</h3>
+  <div class="text-center">
+    <button class="btn btn-primary my-3" type="button" data-bs-toggle="collapse" data-bs-target="#commentFrame" aria-expanded="false" aria-controls="commentFrame">
+      Comment section
+    </button>
+  </div>
+  <div class="collapse" id="commentFrame">
+    <div class="text-center">
+      <form id="comment-area">
+        <input id="username" class="form-control my-1" placeholder="username">
+        <textarea placeholder="comment" id="comment-box" class="form-control"></textarea>
+        <button class="btn btn-primary my-2" id="posting" type="submit">Submit</button>
+        <button class="btn btn-primary my-2" type="button" id="reloading-comments" onclick="reloadPosts()">Reload</button>
+      </form>
+    </div>
+    <div>
+      <ul class="list-group my-2" id="changeSpace">
+        <!--
+        <li class="list-group-item">
+          <strong>Username: </strong>
+          <i>comment</i>
+        </li>
+        Example comment will be in the form:
+        *bold*Username:*italics*comment
+        -->
+      </ul>
+    </div>
+  </div>
+</div>
+  
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+  </footer>
+
+</main>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
+  <script src="./js/index.js"></script>
+
+      
+  </body>
+</html>

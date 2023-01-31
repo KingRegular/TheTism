@@ -1,0 +1,27 @@
+{
+  "name": "thetism",
+  "version": "1.0.0",
+  "description": "website",
+  "main": "server.js",
+  "scripts": {
+    "test": "npx eslint .",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KingRegular/TheTism.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KingRegular/TheTism/issues"
+  },
+  "homepage": "https://github.com/KingRegular/TheTism#readme",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.33.0"
+  }
+}
