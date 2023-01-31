@@ -41,6 +41,10 @@ function reloadPosts()
         for(let i = 1; i <= nComments; i++)
         {
             let commentData = data["comment"+i]
+            if(document.body.contains(document.getElementById("comment"+i)))
+            {
+                continue
+            }
             let comment = '<li class="list-group-item" id="comment'+i+'"><strong>'+commentData["Username"]+': </strong><i>'+commentData["Comment"]+'</i></li>'
             document.getElementById("changeSpace").innerHTML += comment
         }
